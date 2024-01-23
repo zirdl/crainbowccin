@@ -99,7 +99,12 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@markup.strikethrough"] = { fg = C.text, style = { "strikethrough" } }, -- strikethrough text
 		["@markup.underline"] = { link = "Underline" }, -- underlined text
 
-		["@markup.heading"] = { fg = C.blue, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading1"] = { fg = C.red, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading2"] = { fg = C.peach, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading3"] = { fg = C.yellow, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading4"] = { fg = C.green, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading5"] = { fg = C.sapphire, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading6"] = { fg = C.lavender, style = { "bold" } }, -- titles like: # Example
 
 		["@markup.math"] = { fg = C.blue }, -- math environments (e.g. `$ ... $` in LaTeX)
 		["@markup.environment"] = { fg = C.pink }, -- text environments of markup languages
@@ -132,12 +137,12 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@function.builtin.bash"] = { fg = C.red, style = { "italic" } },
 
 		-- markdown
-		["@markup.heading.1.markdown"] = { link = "rainbow1" },
-		["@markup.heading.2.markdown"] = { link = "rainbow2" },
-		["@markup.heading.3.markdown"] = { link = "rainbow3" },
-		["@markup.heading.4.markdown"] = { link = "rainbow4" },
-		["@markup.heading.5.markdown"] = { link = "rainbow5" },
-		["@markup.heading.6.markdown"] = { link = "rainbow6" },
+		["@markup.heading1.1.markdown"] = { link = "rainbow1" },
+		["@markup.heading2.2.markdown"] = { link = "rainbow2" },
+		["@markup.heading3.3.markdown"] = { link = "rainbow3" },
+		["@markup.heading4.4.markdown"] = { link = "rainbow4" },
+		["@markup.heading5.5.markdown"] = { link = "rainbow5" },
+		["@markup.heading6.6.markdown"] = { link = "rainbow6" },
 
 		-- java
 		["@constant.java"] = { fg = C.teal },
@@ -244,12 +249,12 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 
 	colors["@variable.member.yaml"] = colors["@field.yaml"]
 
-	colors["@text.title.1.markdown"] = colors["@markup.heading.1.markdown"]
-	colors["@text.title.2.markdown"] = colors["@markup.heading.2.markdown"]
-	colors["@text.title.3.markdown"] = colors["@markup.heading.3.markdown"]
-	colors["@text.title.4.markdown"] = colors["@markup.heading.4.markdown"]
-	colors["@text.title.5.markdown"] = colors["@markup.heading.5.markdown"]
-	colors["@text.title.6.markdown"] = colors["@markup.heading.6.markdown"]
+	colors["@text.title.1.markdown"] = colors["@markup.heading1.1.markdown"]
+	colors["@text.title.2.markdown"] = colors["@markup.heading2.2.markdown"]
+	colors["@text.title.3.markdown"] = colors["@markup.heading3.3.markdown"]
+	colors["@text.title.4.markdown"] = colors["@markup.heading4.4.markdown"]
+	colors["@text.title.5.markdown"] = colors["@markup.heading5.5.markdown"]
+	colors["@text.title.6.markdown"] = colors["@markup.heading6.6.markdown"]
 
 	colors["@method.php"] = colors["@function.method.php"]
 	colors["@method.call.php"] = colors["@function.method.call.php"]
