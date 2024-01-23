@@ -132,12 +132,12 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@function.builtin.bash"] = { fg = C.red, style = { "italic" } },
 
 		-- markdown
-		["@markup.1.markdown"] = { link = "rainbow1" },
-		["@markup.2.markdown"] = { link = "rainbow2" },
-		["@markup.3.markdown"] = { link = "rainbow3" },
-		["@markup.4.markdown"] = { link = "rainbow4" },
-		["@markup.5.markdown"] = { link = "rainbow5" },
-		["@markup.6.markdown"] = { link = "rainbow6" },
+		["@markup.heading.1.markdown"] = { fg = C.red, link = "rainbow1" },
+		["@markup.heading.2.markdown"] = { fg = C.peach, link = "rainbow2" },
+		["@markup.heading.3.markdown"] = { fg = C.yellow, link = "rainbow3" },
+		["@markup.heading.4.markdown"] = { fg = C.green, link = "rainbow4" },
+		["@markup.heading.5.markdown"] = { fg = C.sapphire, link = "rainbow5" },
+		["@markup.heading.6.markdown"] = { fg = C.lavender, link = "rainbow6" },
 
 		-- java
 		["@constant.java"] = { fg = C.teal },
