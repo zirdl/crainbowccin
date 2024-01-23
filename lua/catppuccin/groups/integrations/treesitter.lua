@@ -99,7 +99,12 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@markup.strikethrough"] = { fg = C.text, style = { "strikethrough" } }, -- strikethrough text
 		["@markup.underline"] = { link = "Underline" }, -- underlined text
 
-		["@markup.heading"] = { fg = C.text, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading.1"] = { fg = C.red, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading.2"] = { fg = C.peach, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading.3"] = { fg = C.yellow, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading.4"] = { fg = C.green, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading.5"] = { fg = C.sapphire, style = { "bold" } }, -- titles like: # Example
+		["@markup.heading.6"] = { fg = C.lavender, style = { "bold" } }, -- titles like: # Example
 
 		["@markup.math"] = { fg = C.blue }, -- math environments (e.g. `$ ... $` in LaTeX)
 		["@markup.environment"] = { fg = C.pink }, -- text environments of markup languages
