@@ -48,7 +48,8 @@ function M.get()
 		qfFileName = { fg = C.blue },
 		htmlH1 = { fg = C.pink, style = { "bold" } },
 		htmlH2 = { fg = C.blue, style = { "bold" } },
-		-- mkdHeading = { fg = C.peach, style = { "bold" } },
+
+		mkdHeading = { fg = C.peach, style = { "bold" } },
 		-- mkdCode = { bg = C.terminal_black, fg = C.text },
 		mkdCodeDelimiter = { bg = C.base, fg = C.text },
 		mkdCodeStart = { fg = C.flamingo, style = { "bold" } },
@@ -90,12 +91,12 @@ function M.get()
 		GlyphPalette9 = { fg = C.red },
 
 		-- rainbow
-		rainbow1 = { fg = C.red },
-		rainbow2 = { fg = C.peach },
-		rainbow3 = { fg = C.yellow },
-		rainbow4 = { fg = C.green },
-		rainbow5 = { fg = C.sapphire },
-		rainbow6 = { fg = C.lavender },
+		rainbow1 = { fg = C.red, style = { "bold" } },
+		rainbow2 = { fg = C.peach, style = { "bold" } },
+		rainbow3 = { fg = C.yellow, style = { "bold" } },
+		rainbow4 = { fg = C.green, style = { "bold" } },
+		rainbow5 = { fg = C.sapphire, style = { "bold" } },
+		rainbow6 = { fg = C.lavender, style = { "bold" } },
 	}
 end
 
